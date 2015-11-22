@@ -431,11 +431,11 @@ body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  background: #D1D1D1;
+  background: #889999; /* MAIN BACKGROUND COLOR */
 }
 
 a {
-  color: #63a52a;
+  color: #005500;
   text-decoration: none;
   transition: opacity ease-in-out 0.3s;
   -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
@@ -443,7 +443,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #90D355;
+  color: #008800;
 }
 
 h1.title {
@@ -453,6 +453,7 @@ h1.title {
   font-style: italic;
   font-family:Georgia, serif;
   text-align: center;
+  color: #111;
 }
 
 .wrapper {
@@ -466,16 +467,38 @@ h1.title {
   box-shadow: 0 0 5px #b1b1b1;
 }
 
-p.tagline {
-  padding: 20px 20px 0;
+#navigation{
+  background-color: #222;
+  width: 100%;
+  height: 40px;
   color: #fff;
-  font-size: 17px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+#navigation a{
+  color: #222;
+  background-color: #88BBBB;
+  padding:5px;
+  border: 2px solid #448888;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+#navigation a:hover{
+  background-color: #44BBFF;
+  text-decoration: none;
+}
+
+p.tagline {
+  padding: 10px 20px 0;
+  color: #fff;
+  font-size: 20px;
 }
 
 #main {
   margin-top: 20px;
   padding: 0 20px 90px;
-  background-color: #fff;
+  background-color: #ddd; /* MAIN TEXT BACKGROUND */
 }
 
 .download-bar {
@@ -559,6 +582,7 @@ p.tagline {
   width: auto;
   height: auto;
   opacity: 1;
+  color: #63a52a;
   filter:alpha(opacity=100);  /* IE 5-7 */
 }
 
@@ -691,6 +715,8 @@ footer .owner {
   padding: 5px 15px;
   margin: -67px -10px 35px;
   color: #d6d6d6;
+  line-height: 20px;
+  text-align: center;
 }
 
 footer .creds small {
@@ -721,6 +747,11 @@ footer .owner p {
 footer .owner p a {
   font-size: 16px;
   font-style: italic;
+}
+
+footer .email {
+  color: #d6d6d6;
+  text-decoration: underline;
 }
 
 /* Markdown */
