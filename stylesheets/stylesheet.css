@@ -431,7 +431,7 @@ body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  background: #889999; /* MAIN BACKGROUND COLOR */
+  background: #CDAA7D; /* MAIN BACKGROUND COLOR */
 }
 
 a {
@@ -455,9 +455,8 @@ h1.title {
   text-align: center;
   color: #111;
 }
-
 .wrapper {
-  width: 675px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -468,25 +467,33 @@ h1.title {
 }
 
 #navigation{
-  background-color: #222;
-  width: 100%;
+  background-color: #661811;
+  width: 100%+1px;
   height: 40px;
   color: #fff;
   font-size: 20px;
   padding-top: 10px;
+  margin-left: -1px;
+  margin-top: -1px;
 }
 #navigation a{
   color: #222;
-  background-color: #88BBBB;
+  background-color: #CDAA7D;
   padding:5px;
-  border: 2px solid #448888;
+  border: 2px solid #6B4226;
   border-radius: 4px;
   margin-left: 10px;
 }
 
 #navigation a:hover{
-  background-color: #44BBFF;
+  background-color: #6B4226;
+  border-color: #CDAA7D;
+  color: #DDD;
   text-decoration: none;
+}
+
+.heading{
+  color: #661811;
 }
 
 p.tagline {
@@ -502,7 +509,7 @@ p.tagline {
 }
 
 .download-bar {
-  background: #222;
+  background: #661811;
   border: 5px solid #444;
   padding: 10px;
   margin: 0 -35px 20px;
@@ -582,7 +589,8 @@ p.tagline {
   width: auto;
   height: auto;
   opacity: 1;
-  color: #63a52a;
+  /*color: #63a52a;*/
+  color: #DDD;
   filter:alpha(opacity=100);  /* IE 5-7 */
 }
 
@@ -710,10 +718,10 @@ footer {
 }
 
 footer .owner {
-  background: #222;
-  border: 5px solid #444;
+  background: #661811;
+  border: 8px solid #444;
   padding: 5px 15px;
-  margin: -67px -10px 35px;
+  margin: -67px -20px 35px;
   color: #d6d6d6;
   line-height: 20px;
   text-align: center;
