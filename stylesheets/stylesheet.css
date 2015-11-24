@@ -496,6 +496,13 @@ h1.title {
   color: #661811;
 }
 
+.slideshow{
+  background-color: #000;
+  height: 420px;
+  display: inline-block;
+  margin-left: 80px;
+}
+
 p.tagline {
   padding: 10px 20px 0;
   color: #fff;

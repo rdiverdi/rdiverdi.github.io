@@ -42,6 +42,39 @@
         <span class="blc"></span><span class="trc"></span>
         </div>
         <article class="markdown-body">
+
+<div style="width:100%">
+<div class="slideshow">
+<script language="JavaScript"> 
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "images/sunset.jpg"; 
+path[1] = "images/pattern.png"; 
+path[2] = "images/pic2.png"; 
+
+function FadeImages() 
+{ 
+$("img.fade").fadeOut(1000,"swing",swapImage()); 
+}
+function swapImage()
+{
+document.slide.src = path[i];
+$("img.fade").show();
+if(i < path.length - 1) i++; 
+else i = 0; 
+document.slide_b.src = path[i];
+setTimeout("FadeImages()",3000); 
+} 
+window.onload=FadeImages; 
+</script> 
+<div>
+<img height="400" name="slide_b" src="images/sunset.jpg" width="800" style="position:absolute"/>
+<img class="fade" height="400" name="slide" src="images/sunset.jpg" width="800" style="position:absolute"/>
+</div>
+</div>
+</div>
+
           <h3 class="heading">
 
 <a id="my-intrests" class="anchor" href="#my-intrests" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Intrests</h3>
