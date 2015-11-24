@@ -530,6 +530,10 @@ h1.title {
   margin-left: 80px;
 }
 
+.no_fade{
+  box-shadow: 2px 2px 15px #000;
+}
+
 p.tagline {
   padding: 10px 20px 0;
   color: #fff;

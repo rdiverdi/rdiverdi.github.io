@@ -33,7 +33,7 @@
         <a href="personal_projects.html">Personal Projects</a>
         <a href="index.html">Other</a>
       </div>
-      <p class="tagline">Personal Projects</p>
+      <p class="tagline">Class and Research Projects</p>
       <div id="main" role="main">
         <div class="download-bar">
         <div class="inner">
@@ -43,11 +43,13 @@
         </div>
         <article class="markdown-body">
           <div class="submenu">
-            <a href="class_projects.html" id="current">OVERVIEW</a>
-            <a href="class_projects.html">MULTIROTORS</a>
-            <a href="class_projects.html">MECHANUM BOT</a>
-            <a href="class_projects.html">MODEL SHIPS</a>
-            <a href="class_projects.html">OTHER</a>
+            <a href="class_projects.html">OVERVIEW</a>
+            <a href="POE.html">PRINCIPLES OF ENGINEERING</a>
+            <a href="comp_robo.html">COMPUTATIONAL ROBOTICS</a>
+            <a href="soft_des.html">SOFTWARE DESIGN</a>
+            <a href="des_nat.html" id="current">DESIGN NATURE</a>
+            <a href="snot_bot.html">SNOT BOT</a>
+            <a href="ORS.html">OLIN ROBOTIC SAILING</a>
           </div>
 
 <div style="width:100%">
@@ -55,10 +57,8 @@
 <script language="JavaScript"> 
 var i = 0; var path = new Array(); 
 
-// LIST OF IMAGES 
-path[0] = "images/sunset.jpg"; 
-path[1] = "images/pattern.png"; 
-path[2] = "images/pic2.png"; 
+// LIST OF IMAGES  
+path[0] = "images/hopper.jpg";
 
 function FadeImages() 
 { 
@@ -84,9 +84,16 @@ window.onload=FadeImages;
 
           <h3 class="heading">
 
-<a id="my-intrests" class="anchor" href="#my-intrests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Projects Overview</h3>
+<a id="my-intrests" class="anchor" href="#my-intrests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Design Nature</h3>
 
-<p>Many Olin College classes culminate in a final project which exhibits the culmination of the learning in the class.  My classes which have ended with interesting final projects are listed on the left in order from most to least recent.  I also have a page about Snot Bot – the research project I did between freshmen and sophomore year in which we worked on using drones to collect biological samples from whales, and Olin Robotic Sailing, an Olin club where we are working on an autonomous sailboat capable of crossing the Atlantic Ocean.</p>
+<p>The hopper project in Design Nature is the first project at Olin.  Given a very limited set of materials, we are asked to make a hopping toy inspired by nature.  My toy, shown above, hopped about two feet, but the interesting piece of it was the physics behind why it hopped.  Rather than use feet-like pieces to push off of the ground, my design relied on shifting the center of mass.  The hopper consists of three circles, but the outer two are tied together, so from the side there are two circles which rotate away from each other, causing the hopper to flip itself over.  If the circles were solid discs, nothing would happen, but because the upper half of the circles are empty, the center of mass starts below the center of the discs, then moves up when the hopper flips, creating upwards momentum which causes the toy to hop.  We also need to have a delay mechanism, so the hopper wouldn't hop immediately after releasing it.  I solved this with an ice rod, which is placed through the three upper holes, locking all three rings together, until the ice melts enough that it shatters, and the hopper releases (see video below).</p>
+
+<p style="text-align:center">
+<video width="600" height="350" controls>
+  <source src="images/hopper.mp4" type="video/mp4">
+  Your browser won't let you see the cool video. :(
+</video>
+</p>
 
         </article>
       </div>
