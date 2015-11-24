@@ -435,7 +435,7 @@ body {
 }
 
 a {
-  color: #005500;
+  color: #661811;
   text-decoration: none;
   transition: opacity ease-in-out 0.3s;
   -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
@@ -443,7 +443,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #008800;
+  color: #BB3426;
 }
 
 h1.title {
@@ -492,6 +492,33 @@ h1.title {
   text-decoration: none;
 }
 
+.submenu {
+  position: relative;
+  float: right;
+  left: -98%;
+  top: 30px;
+  width: 250px;
+  text-align: right;
+}
+.submenu a{
+  margin-bottom: 5px;
+  display: block;
+  padding: 5px;
+  padding-right: 20px;
+  font-size: 18px;
+  color: #DDD;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+#current {
+  background-color: #333;
+}
+
+.submenu a:hover{
+  background-color: #333;
+  text-decoration: none;
+}
 .heading{
   color: #661811;
 }
