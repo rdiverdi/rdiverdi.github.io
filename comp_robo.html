@@ -1,0 +1,119 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>      
+
+
+
+  <title>Rocco DiVerdi</title>
+  <meta name="description" content="About Me">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Rocco DiVerdi</h1>
+    </header>
+    <div id="container">
+      <div id="navigation">
+        <a href="index.html">About Me</a>
+        <a href="class_projects.html">Class and Research Projects</a>
+        <a href="personal_projects.html">Personal Projects</a>
+        <a href="index.html">Other</a>
+      </div>
+      <p class="tagline">Class and Research Projects</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/rdiverdi" class="code">View Rocco DiVerdi on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <div class="submenu">
+            <a href="class_projects.html">OVERVIEW</a>
+            <a href="POE.html">PRINCIPLES OF ENGINEERING</a>
+            <a href="comp_robo.html" id="current">COMPUTATIONAL ROBOTICS</a>
+            <a href="soft_des.html">SOFTWARE DESIGN</a>
+            <a href="des_nat.html">DESIGN NATURE</a>
+            <a href="snot_bot.html">SNOT BOT</a>
+            <a href="ORS.html">OLIN ROBOTIC SAILING</a>
+          </div>
+
+<div style="width:100%">
+<div class="slideshow">
+<script language="JavaScript"> 
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "images/pic2.png"; 
+path[1] = "images/5legs.jpg"; 
+path[2] = "images/ORS_cover.jpg"; 
+path[3] = "images/hopper.jpg";
+
+function FadeImages() 
+{ 
+$("img.fade").fadeOut(1000,"swing",swapImage()); 
+}
+function swapImage()
+{
+document.slide.src = path[i];
+$("img.fade").show();
+if(i < path.length - 1) i++; 
+else i = 0; 
+document.slide_b.src = path[i];
+setTimeout("FadeImages()",3000); 
+} 
+window.onload=FadeImages; 
+</script> 
+<div>
+<img height="400" name="slide_b" src="images/sunset.jpg" width="800" style="position:absolute" class="no_fade"/>
+<img class="fade" height="400" name="slide" src="images/sunset.jpg" width="800" style="position:absolute"/>
+</div>
+</div>
+</div>
+
+          <h3 class="heading">
+
+<a id="my-intrests" class="anchor" href="#my-intrests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Computational Robotics</h3>
+
+<p>This class is not finished yet, by the end of the semester I hope to have some nicely working code to place here.  In this class, we work with vaccum cleaner robots equiped with raspberry pis, cameras, LIDAR and odometry and program interesting bahviors.  So far, I have worked on developing robot behaviors using LIDAR, creating simple particle filters, and developing visual odometry.  The most exciting of these for me was the visual odometry, where used feature detection and matching to find the average flow of particles in four quadrants of a video stream, then we used machine learning on these four vectors, comparing them to the existing odometry, to find how they mapped to the motion of the robot.</p>
+<p>For the final project, I am working in a group of four to create a semi-virtual game of hockey, where usere control neatos and attempt to push a puck into a goal against an AI opponent.  For this, we are implementing a locating system which uses upwards facing cameras and AR markers on the ceiling to find the position of the neato within our map.  So far, we have developed control of multiple neatos at once, which involved learning about ROS namespaces, TF frames, and ethernet ports, all of which needed to be modified to ensure that multiple robots would not interfere with eachother.  We also have implemented the AR detection which will give us accurate positions of everything in the game.</p>
+
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+        <p>
+          Rocco DiVerdi <br>
+          <a href="mailto:rocco.diverdi@students.olin.edu" class="email">Rocco.DiVerdi@students.olin.edu</a>  <br>
+          774-670-3344
+        </p>
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/rdiverdi/rdiverdi.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/rdiverdi/rdiverdi.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>

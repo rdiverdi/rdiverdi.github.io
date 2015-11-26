@@ -1,0 +1,115 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>      
+
+
+
+  <title>Rocco DiVerdi</title>
+  <meta name="description" content="About Me">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Rocco DiVerdi</h1>
+    </header>
+    <div id="container">
+      <div id="navigation">
+        <a href="index.html">About Me</a>
+        <a href="class_projects.html">Class and Research Projects</a>
+        <a href="personal_projects.html">Personal Projects</a>
+        <a href="index.html">Other</a>
+      </div>
+      <p class="tagline">Class and Research Projects</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/rdiverdi" class="code">View Rocco DiVerdi on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <div class="submenu">
+            <a href="class_projects.html">OVERVIEW</a>
+            <a href="POE.html">PRINCIPLES OF ENGINEERING</a>
+            <a href="comp_robo.html">COMPUTATIONAL ROBOTICS</a>
+            <a href="soft_des.html">SOFTWARE DESIGN</a>
+            <a href="des_nat.html">DESIGN NATURE</a>
+            <a href="snot_bot.html">SNOT BOT</a>
+            <a href="ORS.html" id="current">OLIN ROBOTIC SAILING</a>
+          </div>
+
+<div style="width:100%">
+<div class="slideshow">
+<script language="JavaScript"> 
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "images/ORS_cover.jpg"; 
+
+function FadeImages() 
+{ 
+$("img.fade").fadeOut(1000,"swing",swapImage()); 
+}
+function swapImage()
+{
+document.slide.src = path[i];
+$("img.fade").show();
+if(i < path.length - 1) i++; 
+else i = 0; 
+document.slide_b.src = path[i];
+setTimeout("FadeImages()",3000); 
+} 
+window.onload=FadeImages; 
+</script> 
+<div>
+<img height="400" name="slide_b" src="images/sunset.jpg" width="800" style="position:absolute" class="no_fade"/>
+<img class="fade" height="400" name="slide" src="images/sunset.jpg" width="800" style="position:absolute"/>
+</div>
+</div>
+</div>
+
+          <h3 class="heading">
+
+<a id="my-intrests" class="anchor" href="#my-intrests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Olin Robotic Sailing</h3>
+
+<p>Olin Robotic Sailing started as a club focused on the Sailbot competition, with small (approximately 2m) boats and a focus on manuvering in tight spaces.  Recently, however, this club has switched its focus towards building an autonomous sailboat capable of sailing across the Atlantic.  With this change comes an increase in scale, switching to a 4m boat, which has prompted complete redesigns of all of the mechanisms to control the boat.  In addition, we chose to change our code from LabView to a ROS based system because we are more comfortable working in ROS and feel that it is easier for people joining the team to learn python so they can start contributing faster.  I have taken on important roles in both the mechanical and software realms.  For the mechanical team, I have been working with another student to design the rudder actuation system.  After considering 4-bar linkages, direct gearing, and belts, we settled on a chain drive system because of simplicity, some resistance to the boat flexing, and cost.  On the software side, I have been researching and implementing ROS capabilities for communicating with arduinos and other computers.  We are using a single main computer on the boat, with separate arduinos on each of the motors which establish full closed loop control of their motor.  This way the computer simply tells the arduino where the actuator should be, and the arduino takes care of establishing and holding that position whithout additional input.  We have successfully established a system where the main boat computer can communicate with the arduinos, which act as ROS nodes so that transfering information is simple, and a second computer (acting as a ground station) can connect to the boat computer and see all of the ROS messages being passed around the boat.  </p>
+
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+        <p>
+          Rocco DiVerdi <br>
+          <a href="mailto:rocco.diverdi@students.olin.edu" class="email">Rocco.DiVerdi@students.olin.edu</a>  <br>
+          774-670-3344
+        </p>
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/rdiverdi/rdiverdi.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/rdiverdi/rdiverdi.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
