@@ -43,9 +43,9 @@
         </div>
         <article class="markdown-body">
           <div class="submenu">
-            <a href="personal_projects.html" id="current">OVERVIEW</a>
+            <a href="personal_projects.html">OVERVIEW</a>
             <a href="multirotors.html">MULTIROTORS</a>
-            <a href="pi_jukebox.html">Pi JUKEBOX</a>
+            <a href="pi_jukebox.html" id="current">Pi JUKEBOX</a>
             <a href="mecanum.html">MECANUM BOT</a>
             <a href="models.html">MODEL SHIPS</a>
             <a href="other_projects.html">OTHER</a>
@@ -57,10 +57,9 @@
 var i = 0; var path = new Array(); 
 
 // LIST OF IMAGES 
-path[0] = "images/new_model.jpg"; 
-path[1] = "images/mechanum1.jpg"; 
-path[2] = "images/carbon_quad.jpg"; 
-path[3] = "images/pySpotify_desktop_search.png";
+path[0] = "images/pySpotify_desktop.png"; 
+path[1] = "images/pySpotify_desktop_search.png"; 
+path[2] = "images/pySpotify_web.png"; 
 
 function FadeImages() 
 { 
@@ -86,9 +85,11 @@ window.onload=FadeImages;
 
           <h3 class="heading">
 
-<a id="my-intrests" class="anchor" href="#my-intrests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sorry, I haven't written up any content for this yet</h3>
+<a id="my-intrests" class="anchor" href="#my-intrests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pi Jukebox</h3>
 
-<p>Here are some of the projects I have done in my free time, ranging from model boats which I have built since I was little to multirotors which I am still working on.  I enjoy working on all of these projects, and I use them to push the limits of my knowledge and skills.  You will see a lot of crossover between elements of these projects and my more official projects, as I gain knowledge in an area with one project, then apply that to a new project that comes up.</p>
+<p>After a year at college and one software class, I decided I wanted to tackle a fun project that involved a rasperry pi.  A lot of times in the lounge, I noticed that we would want music, so someone would start playing music from Spotify, but very quickly a lot of people would request songs, and the person who started the music would end up spennding more time adding songs than doing their work.  To solve this, I decided to set up and program a rasperry pi to act as a Spotify server which would stream music and allow anyone on campus to add and remove songs from a playlist as well as pause, play, and skip</p>
+<p>I started with a version of this local to my computer.  It gave me access to pause, play skip,a and last in a very small window which always stays above other windows on my computer.  I then added a feature where, if I drag the window larger, I get a search bar, and I can search spotify for any song and add it to the playlist.  When I'm done, I resize the window back down to its minimum size, and continue to have a small, noninvasive window to control my music.</p>
+<p>Once this was working, I shifted to getting it setup on a rasperry pi.  The first issue was figuring out how to make the controls easily accessible to other computers.  To do this, I decided to make the rasperry pi host a webpage on the local network.  That way the system would stay contained at least to a single network to minimize the potential for people not listening to control the music.  To set this up, I learned the basics of Flask along with some of the conventions of webpage hosting, so I was able to access the webpage shown using only the dhcp name of the rasperry pi.  I also learned how to make the pi run a program on startup, so I could plug it in anywhere on campus, and it would automatically start hosting spotify on the Olin network.
 
         </article>
       </div>
