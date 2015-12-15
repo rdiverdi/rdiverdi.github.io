@@ -57,9 +57,7 @@
 var i = 0; var path = new Array(); 
 
 // LIST OF IMAGES 
-path[0] = "images/new_model.jpg"; 
-path[1] = "images/mechanum1.jpg"; 
-path[2] = "images/carbon_quad.jpg"; 
+path[0] = "images/carbon_quad.jpg"; 
 
 function FadeImages() 
 { 
@@ -88,6 +86,13 @@ window.onload=FadeImages;
 <a id="my-intrests" class="anchor" href="#my-intrests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multirotors</h3>
 
 <p>Since my Senior year of high school, I have enjoyd designing and building my own multirotors.  These projects have driven me to learn alot about mutlirotors, as well as mechanical design programming.  In a self directed project Senior year, I tried to design and build a carbon fiber quad copter.  Going into this project, I knew nothing about the design requirements of a quadcopter, the programming that makes them fly, or the process of manucaturing carbon fiber.  I was relatively successful in building a flying quadcopter.  The final frame was below the max weight I had bought motors for, so the quad was able to fly, and I was able to get some areal videos (see below).  The main issue with this first attempt arose from my lack of experience with carbon fiber.  My design relied on two bolts through each of the carbon fiber arms with no additional support.  This resulted in an issue with the frame twisting, forcing the controller to constantly power one diagonal more than the other, to keep the frame from spinning in the air.  After about 75% throttle, this meant that the lower powered diagonal was nearly at zero throttle, causing the quad to become unstalble.</p>
+
+<p style="text-align:center">
+<video width="600" height="350" controls>
+  <source src="images/carbon_quad.mp4" type="video/mp4">
+  Your browser won't let you see the cool video. :(
+</video>
+</p>
 
 <p>My second attempt was meant as an extendable platform to experiment with.  I moved away from carbon fiber, and to a laser cut frame, and from a quadcopter to a tricopter.  I chose to laser cut the frame because it would allow for preccision that I wouldn't have been able to achieve with carbon fiber in my back yard.  I had also never used a laser cutter before, and wanted to learn more about it as a prototyping and manufacturing process.  I chose a tricopter partially because I wanted to see how tricopters fly, and partially because of the weakness I saw in my previous design with the rotation of a quadcopter.  Powering one diagonal to control spinning caused instability because there is a finite amount of rotational inertia in the blades.  In a tricopter, the rear blade tilts to control spin, so it can apply a lot more rotational force.  This design was very successfull, and resulted in a tricopter which flys very nicely.  Unfortunately, I have not had a lot of time to work on this project recently, but I plan to add a raspberry pi and a camera to this frame so I can program it to have interesting behaviors, such as position control based on the camera image rather than a gps.  Over this past summer, I did not work on this project, but I did work on programming quadcopters as part of the <a href="snot_bot.html">snot bot</a> project.  When I have time to return to my tricopter, I will apply some of the things I learned over the summer to improve this project.
 
