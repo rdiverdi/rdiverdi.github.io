@@ -501,7 +501,7 @@ h1.title {
   text-align: right;
   z-index: 100;
 }
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 1000px) {
 .submenu {
   left: 0%;
 }}
