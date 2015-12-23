@@ -499,6 +499,7 @@ h1.title {
   top: 30px;
   width: 250px;
   text-align: right;
+  z-index: 100;
 }
 .submenu a{
   margin-bottom: 5px;
@@ -519,6 +520,12 @@ h1.title {
   background-color: #333;
   text-decoration: none;
 }
+@media only screen and (max-device-width: 480px) {
+.submenu a:hover{
+  margin-left: 150px;
+  width: 100%;
+}}
+
 .heading{
   color: #661811;
 }
