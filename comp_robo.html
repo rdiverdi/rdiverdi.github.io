@@ -58,10 +58,8 @@
 var i = 0; var path = new Array(); 
 
 // LIST OF IMAGES 
-path[0] = "images/pic2.png"; 
-path[1] = "images/5legs.jpg"; 
-path[2] = "images/ORS_cover.jpg"; 
-path[3] = "images/hopper.jpg";
+path[0] = "images/neatoWithPuck.png"; 
+path[1] = "images/robo_vis.png"; 
 
 function FadeImages() 
 { 
@@ -91,6 +89,13 @@ window.onload=FadeImages;
 
 <p>In this class, we worked with vaccum cleaner robots equiped with raspberry pis, cameras, LIDAR, and odometry to program interesting bahviors.  Our structured projects included developing robot behaviors such as wall follow, person follow, and obstacle avoid using LIDAR, creating simple particle filters, and developing visual odometry.  The most exciting of these for me was the visual odometry, where used feature detection and matching to find the average flow of particles in four quadrants of a video stream, then we used machine learning on these four vectors, comparing them to the existing odometry, to find how they mapped to the motion of the robot.</p>
 <p>For the final project, I worked in a group of four to make the neato robots play a game of hockey against eachother.  For this, we implemented a locating system which uses upwards facing cameras and AR markers on the ceiling to find the position of the neato within our map.  I dug into some of the more complicated pieces of ROS to allow us to run multiple neatos at once, all of which ran at least one copy of the same script.  I learned about ROS namespaces, TF frames, and ethernet ports, all of which needed to be modified to ensure that multiple robots would not interfere with eachother.  With this system, we are able to get accurate position data of everything in the game, which is very important when the neatos run into eachother and completely throw off the existing odometry.</p>
+
+<p style="text-align:center">
+<video width="600" height="350" controls>
+  <source src="images/comp_robo.mp4" type="video/mp4">
+  Your browser won't let you see the cool video. :(
+</video>
+</p>
 
         </article>
       </div>
