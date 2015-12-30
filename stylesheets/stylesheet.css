@@ -537,6 +537,40 @@ h1.title {
   margin-left: 80px;
 }
 
+.inline_left{
+  float: left;
+  margin-right: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+.inline_right{
+  margin-left: 20px;
+  float: right;
+  width: 300px;
+  height: 200px;
+}
+
+.inline_text_left{
+  float: left;
+  width: 320px;
+}
+
+.inline_text_right{
+  margin-left: 30px;
+  text-align: right;
+  float: right;
+  width: 320px;
+}
+
+.no_slideshow{
+  width: 90%;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  height: 200px;
+  background-color: none;
+}
+
 .no_fade{
   box-shadow: 2px 2px 15px #000;
 }
@@ -814,7 +848,11 @@ footer .email {
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6,
-.markdown-body p,
+.markdown-body p{
+  margin-left: 60px;
+  margin-right: 60px;
+  overflow: auto;
+}
 .markdown-body pre,
 .markdown-body ul,
 .markdown-body ol,
