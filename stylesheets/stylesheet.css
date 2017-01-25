@@ -673,6 +673,15 @@ p.tagline {
   filter:alpha(opacity=100);  /* IE 5-7 */
 }
 
+.download-bar a.link {
+  padding-left: 50px;
+  margin-top: 8px;
+  display: block;
+  float: left;
+  color: #DDD;
+  opacity: 1;
+}
+
 .current-section {
   position: fixed;
   top: 0;
