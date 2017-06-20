@@ -25,6 +25,8 @@ Below is a quick description of many of my recent projects. Most of them have ad
 
 The Olin Intelligent Vehicles Lab does a lot of work with multirtors, especially in ocean applications; however, flying a drone from a boat requires a skilled pilot to safely recover the drone. In this project, I developed a system capable of using a camera and GPS, which are both common in most drone missions, to detect and land within about 0.5m of a target (as opposed to up to 6m with GPS alone).
 
+**Relevant Skills:** Linux, Python, ROS, Hardware Prototyping, System Design
+
 ## [Principles of Engineering](POE.html)
 
 <p style="text-align:center">
@@ -35,6 +37,8 @@ The Olin Intelligent Vehicles Lab does a lot of work with multirtors, especially
 </p>
 
 This six week project was an entirely open ended project where my team of five decided to build a hexapod robot. By the end of the project, we had a fully functional platform capable of autonomously moving in straight lines and turning.
+
+**Relevant Skills:** Linux, Python, Arduino, Mechanical Design (OnShape), Dynamics, Debugging
 
 ## [Mecanum Bot](mecaum.html)
 
@@ -47,6 +51,8 @@ This six week project was an entirely open ended project where my team of five d
 
 This was a quick project I did at the end of freshmen year in order to explore 3D printing and make myself an interesting toy. My high school robotics team discussed mecanum drive robots a few times but never built one, so I wanted to try it out.
 
+**Relevant Skills:** Mechanical Design (SolidWorks), Arduino, Electrical Prototyping
+
 ## [Design Nature](des_nat.html)
 
 <p style="text-align:center">
@@ -57,3 +63,6 @@ This was a quick project I did at the end of freshmen year in order to explore 3
 </p>
 
 This was the first project at Olin. The goal was to design a hopping toy inspired by an insect. This is inspired by the click beetle, which flips istelf over by folding itself in half fast enough to fling itself in the air.
+
+**Relevant Skills:** Mechanical Design (SolidWorks)
+
