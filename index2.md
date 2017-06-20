@@ -8,8 +8,13 @@ video_list:
   - images/ORS_cover.jpg
   - images/new_model.jpg
   - images/hex_iso.jpg
+
+test_list:
+  - words
+  - more words
+  - "quoted words"
 ---
 
 # My Projects
 
-Different Words
+Different words
