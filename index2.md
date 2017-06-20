@@ -4,6 +4,6 @@ layout: template
 filename: index
 ---
 
-# heading, probably
+# My Projects
 
 more words
