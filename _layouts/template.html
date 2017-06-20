@@ -58,7 +58,7 @@ path[1] = "images/ORS_cover.jpg";
 path[2] = "images/new_model.jpg"; 
 path[3] = "images/hex_iso.jpg";*/
 {% for img in page.video_list %}
-  path.push({{ img }});
+  path.push("{{ img }}");
 {% endfor %}
 
 function FadeImages() 
