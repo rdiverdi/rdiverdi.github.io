@@ -19,7 +19,7 @@ Below is a quick description of many of my recent projects. Most of them have ad
 
 <p style="text-align:center">
 <video width="600" height="350" controls>
-  <source src="images/drone_landing.mp4" type="video/mp4">
+  <source src="images/drone_landing.mp4#t=21" type="video/mp4">
       Your browser won't let you see the cool video. :(
 </video>
 </p>
@@ -66,7 +66,7 @@ This six week project was an entirely open ended project where my team of five d
 
 <p style="text-align:center">
 <video width="600" height="350" controls>
-  <source src="images/funrobo.mp4" type="video/mp4">
+  <source src="images/funrobo.mp4#t=8" type="video/mp4">
       Your browser won't let you see the cool video. :(
 </video>
 </p>
