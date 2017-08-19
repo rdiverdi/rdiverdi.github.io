@@ -24,7 +24,7 @@ Below is a quick description of many of my recent projects. Most of them have ad
 </video>
 </p>
 
-The Olin Intelligent Vehicles Lab does a lot of work with multirtors, especially in ocean applications; however, flying a drone from a boat requires a skilled pilot to safely recover the drone. In this project, I developed a system capable of using a camera and GPS, which are both common in most drone missions, to detect and land within about 0.5m of a target (as opposed to up to 6m with GPS alone).
+The Olin Intelligent Vehicles Lab does a lot of work with multirtors, especially in ocean applications; however, flying a drone from a boat requires a skilled pilot to safely recover the drone. In this project, I developed a system capable of using a camera and GPS, which are both common in most drone missions, to detect and land within about 0.5m of a target (as opposed to up to 6m with GPS alone). [click here for more about my work in the Intelligent Vehicles Lab](iv_lab.html)
 
 **Relevant Skills:** Linux, Python, ROS, Hardware Prototyping, System Design
 
@@ -58,7 +58,7 @@ The final project for this class was to machine a Tesla Turbine usig a maual lat
 </video>
 </p>
 
-This six week project was an entirely open ended project where my team of five decided to build a hexapod robot. By the end of the project, we had a fully functional platform capable of autonomously moving in straight lines and turning.
+This six week project was an entirely open ended project where my team of five decided to build a hexapod robot. By the end of the project, we had a fully functional platform capable of autonomously moving in straight lines and turning. [click here for more about the project](POE.html)
 
 **Relevant Skills:** Linux, Python, Arduino, Mechanical Design (OnShape), Dynamics, Debugging
 
@@ -84,7 +84,7 @@ In this final project for Fundamentals of Robotics, I was on a team of three wor
 </video>
 </p>
 
-This was a quick project I did at the end of freshmen year in order to explore 3D printing and make myself an interesting toy. My high school robotics team discussed mecanum drive robots a few times but never built one, so I wanted to try it out.
+This was a quick project I did at the end of freshmen year in order to explore 3D printing and make myself something interesting. My high school robotics team discussed mecanum drive robots a few times but never built one, so I wanted to try it out. [click here for more about my design](mecanum.html)
 
 **Relevant Skills:** Mechanical Design (SolidWorks), Rapid Prototyping, Arduino, Electrical Prototyping
 
@@ -97,7 +97,7 @@ This was a quick project I did at the end of freshmen year in order to explore 3
 </video>
 </p>
 
-This was the first project at Olin. The goal was to design a hopping toy inspired by an insect. This is inspired by the click beetle, which flips istelf over by folding itself in half fast enough to fling itself in the air.
+This was the first project at Olin. The goal was to design a hopping toy inspired by an insect. This is inspired by the click beetle, which flips istelf over by folding itself in half fast enough to fling itself in the air. [click here for more about how it works](des_nat.html)
 
 **Relevant Skills:** Mechanical Design (SolidWorks)
 
