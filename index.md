@@ -37,7 +37,7 @@ The Olin Intelligent Vehicles Lab does a lot of work with multirtors, especially
 </video>
 </p>
 
-In this full semsester project, I worked in a team of five to take a semi-functional robot and program it to follow someone, keep track of where it is in a map, and make comments based on the person's location in the building. To robustly follow the target person, we fused camera and lidar data to get a somewhat depth-informed image, which allowed us to consistently detect the person with few false positives. We also developed an angorithm for autonomously calibrating a color threshold for detecting a person's pants. This feature, along with an informative set of light patterns allowed us to develop an intuitive user interaction.
+In this full semsester project, I worked in a team of five to take a semi-functional robot and program it to follow someone, keep track of where it is in a map, and make comments based on the person's location in the building. To robustly follow the target person, we fused camera and lidar data to get a somewhat depth-informed image, which allowed us to consistently detect the person with few false positives. We also developed an angorithm for autonomously calibrating a color threshold for detecting a person's pants. This feature, along with an informative set of light patterns allowed us to develop an intuitive user interaction. [click here to see our project wiki](https://github.com/RRameshwar/bravobot/wiki)
 
 **Relevant Skills:** Linux, C++, ROS, Arduino, Debugging
 
@@ -45,7 +45,7 @@ In this full semsester project, I worked in a team of five to take a semi-functi
 
 ![Tesla Turbine](images/teslaTurbine.jpg)
 
-The final project for this class was to machine a Tesla Turbine usig a maual lathe, manual mill, and 2 axis CNC mill.
+The final project for this class was to machine a Tesla Turbine usig a maual lathe, manual mill, and 2 axis CNC mill The tesla turbine is interesting because the air flows parallel to the "blades" and all of the propultion is the result of viscous forces (as opposed to conventional turbines which are driven by momentum). To test the turbie, we used shop air to spin it up to 25,000 rpm.
 
 **Relevant Skills:** Machining
 
