@@ -53,7 +53,7 @@ The final project for this class was to machine a Tesla Turbine usig a maual lat
 
 <p style="text-align:center">
 <video width="600" height="350" controls>
-  <source src="images/hexbot.mp4" type="video/mp4">
+  <source src="images/hexbot.mpeg" type="video/mpeg">
       Your browser won't let you see the cool video. :(
 </video>
 </p>
