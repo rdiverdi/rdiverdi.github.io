@@ -11,9 +11,12 @@ video_list:
   - images/DroneInSmoke.png
 ---
 
-# My Projects
+# About Me
 
-Below is a quick description of many of my recent projects. Most of them have additional information if you click the title.
+I am a Senior at Olin College studying Robotics. I have a wide range of interests, and I've enjoyed studying robotics because it sits at the intersection of mechanical, software, and electrical engineering. I always enjoy taking ideas from disparate
+ experiences and putting them together to make new and interesting things.
+
+# My Projects
 
 ## [Autonomous Drone Landing](iv_lab.html)
 
@@ -24,7 +27,7 @@ Below is a quick description of many of my recent projects. Most of them have ad
 </video>
 </p>
 
-The Olin Intelligent Vehicles Lab does a lot of work with multirtors, especially in ocean applications; however, flying a drone from a boat requires a skilled pilot to safely recover the drone. In this project, I developed a system capable of using a camera and GPS, which are both common in most drone missions, to detect and land within about 0.5m of a target (as opposed to up to 6m with GPS alone). [click here for more about my work in the Intelligent Vehicles Lab](iv_lab.html)
+The Olin Intelligent Vehicles Lab does a lot of work with multirotors, especially in ocean applications; however, flying a drone from a boat requires a skilled pilot to safely recover the drone. In this project, I developed a system capable of using a camera and GPS, which are both common in most drone missions, to detect and land within about 0.5m of a target (as opposed to up to 6m with GPS alone). Part way through this project, I wrote [a research paper](http://ieeexplore.ieee.org/document/7761038/) and presented on this project at the IEE OCEANS conference in 2016. [click here for more about my work in the Intelligent Vehicles Lab](iv_lab.html)
 
 **Relevant Skills:** Linux, Python, ROS, Hardware Prototyping, System Design
 
@@ -37,7 +40,7 @@ The Olin Intelligent Vehicles Lab does a lot of work with multirtors, especially
 </video>
 </p>
 
-In this full semsester project, I worked in a team of five to take a semi-functional robot and program it to follow someone, keep track of where it is in a map, and make comments based on the person's location in the building. To robustly follow the target person, we fused camera and lidar data to get a somewhat depth-informed image, which allowed us to consistently detect the person with few false positives. We also developed an angorithm for autonomously calibrating a color threshold for detecting a person's pants. This feature, along with an informative set of light patterns allowed us to develop an intuitive user interaction. [click here to see our project wiki](https://github.com/RRameshwar/bravobot/wiki)
+In this full semester project, I worked in a team of five to take a semi-functional robot and program it to follow someone, keep track of where it is in a map, and make comments based on the person's location in the building. To robustly follow the target person, we fused camera and lidar data to get a somewhat depth-informed image, which allowed us to consistently detect the person with few false positives. We also developed an algorithm for autonomously calibrating a color threshold for detecting a person's pants. This feature, along with an informative set of light patterns allowed us to develop an intuitive user interaction. [click here to see our project wiki](https://github.com/RRameshwar/bravobot/wiki)
 
 **Relevant Skills:** Linux, C++, ROS, Arduino, Debugging
 
@@ -45,7 +48,7 @@ In this full semsester project, I worked in a team of five to take a semi-functi
 
 ![Tesla Turbine](images/teslaTurbine.jpg)
 
-The final project for this class was to machine a Tesla Turbine usig a maual lathe, manual mill, and 2 axis CNC mill The tesla turbine is interesting because the air flows parallel to the "blades" and all of the propultion is the result of viscous forces (as opposed to conventional turbines which are driven by momentum). To test the turbie, we used shop air to spin it up to 25,000 rpm.
+The final project for this class was to machine a Tesla Turbine using a manual lathe, manual mill, and 2 axis CNC mill The Tesla Turbine is interesting because the air flows parallel to the "blades" and all of the propultion is the result of viscous forces (as opposed to conventional turbines which are driven by momentum). To test the turbine, we used shop air to spin it up to 25,000 rpm.
 
 **Relevant Skills:** Machining
 
@@ -71,7 +74,7 @@ This six week project was an entirely open ended project where my team of five d
 </video>
 </p>
 
-In this final project for Fundamentals of Robotics, I was on a team of three working to make this tugboat autonomousy navigate around a pool using onboard IR distance sensors and an artificial GPS (positions from a ceiling mounted camera)
+In this final project for Fundamentals of Robotics, I was on a team of three working to make this tugboat autonomously navigate around a pool using on-board IR distance sensors and an artificial GPS (positions from a ceiling mounted camera)
 
 **Relevant Skills:** LabView
 
@@ -97,7 +100,7 @@ This was a quick project I did at the end of freshmen year in order to explore 3
 </video>
 </p>
 
-This was the first project at Olin. The goal was to design a hopping toy inspired by an insect. This is inspired by the click beetle, which flips istelf over by folding itself in half fast enough to fling itself in the air. [click here for more about how it works](des_nat.html)
+This was the first project at Olin. The goal was to design a hopping toy inspired by an insect. This is inspired by the click beetle, which flips itself over by folding itself in half fast enough to fling itself in the air. [click here for more about how it works](des_nat.html)
 
 **Relevant Skills:** Mechanical Design (SolidWorks)
 
