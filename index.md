@@ -18,7 +18,7 @@ I am a Senior at Olin College studying Robotics. I have a wide range of interest
 
 # My Projects
 
-## Modulair: drone based air quality sampling
+## [Modulair: drone based air quality sampling](modulair.md)
 
 <p style="text-align:center">
 <video width="600" height="350" controls>
@@ -27,7 +27,9 @@ I am a Senior at Olin College studying Robotics. I have a wide range of interest
 </video>
 </p>
 
-Aerodyne is a company specializing in air quality sensors, mainly aerosol mass spectrometers. After working with Olin through the SCOPE program (2016-2017) to design a low cost, mobile air quality sensor, another student and I were hired to continue developing the sensor and explore applications, including drone-based mounting. The plots are time-synced data which show the sensor reacting to the smoke plume as the drone flies through. This work was presented [here](http://aaarabstracts.com/2017/viewabstract.php?pid=211), in the AAAR annual conference.
+Aerodyne is a company specializing in air quality sensors, mainly aerosol mass spectrometers. After working with Olin through the SCOPE program (2016-2017) to design a low cost, mobile air quality sensor, another student and I were hired to continue developing the sensor and explore applications, including drone-based mounting. The plots are time-synced data which show the sensor reacting to the smoke plume as the drone flies through. This work was presented [here](http://aaarabstracts.com/2017/viewabstract.php?pid=211), in the AAAR annual conference. [Click here](modulair.md) for more.
+
+**Relevant Skills:** Fusion 360, C++, Embedded Programming, Populating PCBs, Mechanical Design
 
 ## [Autonomous Drone Landing](iv_lab.html)
 
