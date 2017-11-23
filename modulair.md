@@ -23,8 +23,8 @@ This project started through Olin's Senior Capstione Program in Engineering (SCO
 
 In order to make a robust, weatherproof sensor, we decided to redesign the system to fit in a NEMA box. This design fits four electrochemical sensor cells in a 6.6x4.6x4.3 inch box along with enough battery to last 16 hours. The electrical design from the SCOPE team fit most of the electrical functionality in an extremely compact core board, which allowed the system to fit in this small box. 
 
-![ModulairOpen](images/ModulairOpen.png)
-<img src="images/ModulairOpen.png" alt="inside the box" width="30%">
+
+<img src="images/ModulairOpen.png" alt="inside the box" width="35%">
 ## Data Collection
 
 In addition to the drone-based data collecion, we also mounted the sensor to a bike and collected data on a ride from downtown Boston to Olin. 
