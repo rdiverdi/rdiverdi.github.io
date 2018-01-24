@@ -78,7 +78,7 @@ This six week project was an entirely open ended project where my team of five d
 
 **Relevant Skills:** Linux, Python, Arduino, Mechanical Design (OnShape), Dynamics, Debugging
 
-## Fundamentals of Robitics
+## Fundamentals of Robotics
 
 <p style="text-align:center">
 <video width="600" height="350" controls>
